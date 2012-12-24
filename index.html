@@ -7,8 +7,8 @@
 			<meta charset="utf-8">
 	    	<meta name="description" content="Saiba quanto imposto você paga a partir do seu salário">
 	    	<title>Saiba quanto imposto você paga a partir do seu salário</title>
-	    	<link rel="stylesheet" type="text/css" href="Css/main.css">
-	    	<link rel="stylesheet" type="text/css" href="Css/normalize.css">
+	    	<link rel="stylesheet" type="text/css" href="css/main.css">
+            <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	    	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 		</head>
 
@@ -19,27 +19,28 @@
 
         <!-- Add your site or application content here -->
         <header>
-                <fieldset>
-                    <h1>Veja Para Onde Vai Seu Dinheiro Suado</h1>
-                    <label for="salariobruto"></label>
-                <input id="salariobruto" name="salariiobruto" placeholder="Salário bruto" size=30>
+            <fieldset>
+                <h1>Veja Para Onde Vai Seu Dinheiro Suado</h1>
+                <label for="salariobruto"></label>
+                <input id="salariobruto" name="salariiobruto" placeholder="Salário bruto">
                 <input type="submit" id="botao" value="Calcular">
-                </fieldset>
-            </header>   
-        <section id="Calculator">
-        	<fieldset>
-        		<label for="discountINSS">Desconto do INSS</label><br>
-        		<input id="discountINSS" name="discount_INSS" size=30><br>
-        		<label for="discountIR">Desconto do IR</label><br>
-        		<input id="discountIR" name="discount_IR" size=30><br>
-        		<label for="salarioliquido">Salário Líquido</label><br>
-        		<input id="salarioliquido" name="salary_liquid" size=30>
-        	</fieldset>
+            </fieldset>
+        </header>   
+        <section id="calculator">
+            <fieldset>
+                <label for="discountINSS">Desconto do INSS</label><br>
+                <input id="discountINSS" name="discountINSS"><br>
+                <label for="discountIR">Desconto do IR</label><br>
+                <input id="discountIR" name="discount_IR"><br>
+        	   <label for="salarioliquido">Salário Líquido</label><br>
+        	   <input id="salarioliquido" name="salarioliquido">
+            </fieldset>
         </section>
         <footer>
-        <script src="js/vendor/jquery-1.8.3.min.js"></script>
-<script src="js/main.js"></script>
-		</footer>
-	 </body>
+            <script src="js/vendor/jquery-1.8.3.min.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+	    </footer>
+    </body>
 
-    </html>
+</html>

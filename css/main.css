@@ -1,8 +1,19 @@
-body{
+body fieldset{
 	margin: 0 auto;
 	width: 560px;
+	border-radius: 5px;
 }
 
-fieldset{
-border-radius: 5px;
+#salariobruto,#discountINSS,#discountIR,#salarioliquido{
+	height: 45px;
+	width: 373px;
 }
+#botao{
+	height: 45px;
+	width: 103px;
+	background: #0652ca;
+	border-radius: 10px;
+ 	color: #FFFAFA;
+}
+
+
