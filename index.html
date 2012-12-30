@@ -19,22 +19,25 @@
 
         <!-- Add your site or application content here -->
         <header>
-            <fieldset>
+            <form>
                 <h1>Veja Para Onde Vai Seu Dinheiro Suado</h1>
                 <label for="salariobruto"></label>
                 <input id="salariobruto" name="salariiobruto" placeholder="Salário bruto">
-                <input type="submit" id="botao" value="Calcular">
-            </fieldset>
+                <button type="button" class="btn btn-primary"><strong>Calcular</strong></button>
+            </form>
         </header>   
         <section id="calculator">
-            <fieldset>
-                <label for="discountINSS">Desconto do INSS</label><br>
+            <form>
+                <label for="discountINSS"><strong>Desconto do INSS</strong></label><br>
+                <span class="add-on"><strong>R$</strong></span>
                 <input id="discountINSS" name="discountINSS"><br>
-                <label for="discountIR">Desconto do IR</label><br>
+                <label for="discountIR"><strong>Desconto do IR</strong></label><br>
+                <span class="add-on"><strong>R$</strong></span>
                 <input id="discountIR" name="discount_IR"><br>
-        	   <label for="salarioliquido">Salário Líquido</label><br>
+        	   <label for="salarioliquido"><strong>Salário Líquido</strong></label><br>
+               <span class="add-on"><strong>R$</strong></span>
         	   <input id="salarioliquido" name="salarioliquido">
-            </fieldset>
+            </form>
         </section>
         <footer>
             <script src="js/vendor/jquery-1.8.3.min.js"></script>
