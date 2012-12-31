@@ -11,9 +11,7 @@ header form{
 	width: 485px;
 	border-style: ridge;
 	height: 195px;
-	padding-left: 30px;
-	padding-top: 10px;
-	padding-right: 45px;
+	padding: 10px 45px 0 30px;
 }
 
 #salariobruto{
