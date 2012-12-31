@@ -1,6 +1,7 @@
 jQuery(document).ready(function() {
 	$("header form button ").click(function(){
 		var salario =parseFloat($("#salariobruto").val());
+		
 		if (salario<=1174.86) {
 		var salarioINSS = parseFloat($("#discountINSS").val(salario-=salario*0.08+""))
 	}
@@ -11,7 +12,7 @@ jQuery(document).ready(function() {
 		var salarioINSS = parseFloat($("#discountINSS").val(salario-=salario*0.11+""))	
 	}
 		if (salarioINSS<=1697.11) {
-		var salarioIR = parseFloat($("#discountIR").val(salarioINSS+""))
+		var salarioIR = parseFloat($("#discountIR").val(salarioINSS+""));
 	}
 
     });
