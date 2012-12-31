@@ -1,7 +1,19 @@
 body form{
 	margin: 0 auto;
-	width: 560px;
 	border-radius: 5px;
+}
+
+header{
+	padding-bottom: 20px;
+}
+
+header form{
+	width: 485px;
+	border-style: ridge;
+	height: 195px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-right: 45px;
 }
 
 #salariobruto{
@@ -9,15 +21,24 @@ body form{
 	width: 373px;
 }
 
+
 button{
 	height: 40px;
 	width: 103px;
 }
 
+#calculator form{
+	background-color: #daecf8;
+	width: 560px;
+
+}
+
 #discountINSS,#discountIR,#salarioliquido{
-	height: 35px;
+	height: 15px;
 	width: 353px;
 	border: none;
+	background-color: #daecf8;
+
 }
 
 
